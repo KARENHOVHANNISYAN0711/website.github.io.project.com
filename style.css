@@ -1,0 +1,367 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+#nav{
+    width:100%;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.conteiner{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.nav-list{
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style:none;
+}
+
+.nav-list>li>a{
+    text-decoration:none;
+    color: #000;
+    font-family:Satoshi Variable;
+    font-size:17px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+}
+
+.nav-bar{
+    display:none;
+}
+
+.btn{
+    width:116px;
+    height:50px;
+    border:solid 1px #E2E2E2;
+    flex-shrink:0;
+    border-radius:11px;
+    background:#E2E2E2;
+    color:#000;
+    font-family:Satoshi Variable;
+    font-size:16px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+}
+
+.section-one{
+    width:100%;
+    padding:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#FFFFFF;
+}
+
+.text{
+    width:70%;
+}
+
+.h2-text{
+    color:#000;
+    text-align:center;
+    font-family:Satoshi Variable;
+    font-size:100px;
+    font-style:normal;
+    font-weight:700;
+    line-height:92.5%;
+}
+
+.button-div{
+    width:38%;
+    margin:0 auto;
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.Apply-to-join{
+    width:180px;
+    height:50px;
+    border:solid 1px #4353FF;
+    flex-shrink:0;
+    border-radius:11px;
+    background:#4353FF;
+    color:#FFFFFF;
+    font-family:Satoshi Variable;
+    font-size:16px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+}
+
+.login{
+    width:180px;
+    height:50px;
+    border:solid 1px #E2E2E2;
+    flex-shrink:0;
+    border-radius:11px;
+    background:#E2E2E2;
+    color:#000;
+    font-family:Satoshi Variable;
+    font-size:16px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+}
+
+.section-two{
+    padding:80px;
+    background-color:#FFFFFF;
+}
+
+.paragraf-sectiontwo{
+    color:#000;
+    text-align:center;
+    font-family:Satoshi Variable;
+    font-size:52px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+}
+
+.wallpaper{
+    width:80%;
+    padding:30px;
+    margin:0 auto;
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.section-three{
+    width:80%;
+    padding:30px;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    justify-content:space-between;
+}
+
+.paragraf-about{
+    color:#000;
+    font-family:Satoshi Variable;
+    font-size:60px;
+    font-style:normal;
+    font-weight:700;
+    line-height:150%; 
+}
+
+.h4-text{
+    color: #747474;
+    font-family:Satoshi Variable;
+    font-size:22px;
+    font-style:normal;
+    font-weight:700;
+    line-height:150%;
+}
+
+.sectionthree-h3text{
+    color: #747474;
+    font-family:Satoshi Variable;
+    font-size:22px;
+    font-style:normal;
+    font-weight:700;
+    line-height:150%;
+    padding-top:50px;
+}
+
+.apply-to-join{
+    width:180px;
+    height:50px;
+    border:solid 1px #4353FF;
+    flex-shrink:0;
+    border-radius:11px;
+    background:#4353FF;
+    color:#FFFFFF;
+    font-family:Satoshi Variable;
+    font-size:16px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+    margin-top:20px;
+}
+
+.section-foure{
+    width:100%;
+    padding:40px;
+    background-color:#FFFFFF;
+}
+
+.paragraf-speakers{
+    color:#000;
+    text-align:center;
+    font-family:Satoshi Variable;
+    font-size:70px;
+    font-style:normal;
+    font-weight:700;
+    line-height:150%; 
+}
+
+.sectionfoure-img{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.people-img{
+    width:90%;
+    margin-top:30px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.check-out{
+    width:337px;
+    height:50px;
+    flex-shrink:0;
+    color:#FFF;
+    font-family:Satoshi Variable;
+    font-size:16px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+    border-radius:11px;
+    background:#4353FF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+}
+
+.section-five{
+    width:100%;
+    padding:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#F1F1F1;
+}
+
+.contact-img{
+    width:70%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.contact-number{
+    width:40%;
+}
+
+.h1-text{
+    color:#000;
+    font-family:Satoshi Variable;
+    font-size:60px;
+    font-style:normal;
+    font-weight:700;
+    line-height:150%;
+}
+
+.number-img{
+    padding-top:60px;
+}
+
+.section-six{
+    width:100%;
+    padding:30px;
+    background-color:#F1F1F1;
+}
+
+.paragraf-meat-team{
+    color:#000;
+    text-align:center;
+    font-family:Satoshi Variable;
+    font-size:70px;
+    font-style:normal;
+    font-weight:700;
+    line-height:150%;
+}
+
+.team-picture-par{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.team-picture{
+    width:85%;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding:30px;
+}
+
+.see-more{
+    width:337px;
+    height:50px;
+    flex-shrink:0;
+    color:#FFF;
+    font-family:Satoshi Variable;
+    font-size:16px;
+    font-style:normal;
+    font-weight:700;
+    line-height:normal;
+    border-radius:11px;
+    background:#4353FF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+}
+
+.footer{
+    width:100%;
+    padding:40px;
+    background-color:#FFFFFF;
+    display:flex;
+    justify-content:center;
+}
+
+.footer-text{
+    width:40%;
+    padding:10px;
+}
+
+.paragraf-footer{
+    color:#000;
+    text-align:center;
+    font-family:Satoshi Variable;
+    font-size:70px;
+    font-style:normal;
+    font-weight:700;
+    line-height:150%;
+}
+
+.footer-h3text{
+    color:#747474;
+    text-align:center;
+    font-family:Satoshi Variable;
+    font-size:21px;
+    font-style:normal;
+    font-weight:700;
+    line-height:150%;
+    padding-top:30px;
+}
+
+.footer-h4text{
+    color:#000;
+    text-align:center;
+    font-family:Satoshi Variable;
+    font-size:21px;
+    font-style:normal;
+    font-weight:700;
+    line-height:150%; 
+    padding-top:30px;
+}
